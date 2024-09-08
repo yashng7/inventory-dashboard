@@ -83,7 +83,7 @@ const Sidebar = () => {
       >
         <Image
           src="https://s3-inventory-dashboard.s3.eu-north-1.amazonaws.com/logo.png"
-          alt="edstock-logo"
+          alt="logo"
           width={27}
           height={27}
           className="rounded w-8"
@@ -93,7 +93,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          Stonks
         </h1>
 
         <button
@@ -146,7 +146,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2024 Stonks</p>
       </div>
     </div>
   );
